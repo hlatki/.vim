@@ -1,6 +1,5 @@
 set nocompatible 
 syntax on
-filetype off
 
 set showcmd
 set hlsearch
@@ -34,6 +33,7 @@ au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 tabstop=2 expantab
 
 
 " vundle stuff
+filetype off
 set rtp+=~/.vim/bundle/vundle
 call vundle#rc()
 Bundle 'gmarik/vundle'
