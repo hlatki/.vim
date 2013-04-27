@@ -1,5 +1,8 @@
 set nocompatible 
 syntax on
+filetype off
+filetype plugin indent on
+
 set showcmd
 set hlsearch
 set number
@@ -21,3 +24,13 @@ set expandtab
 " Background and colorscheme
 set background=dark
 colorscheme solarized 
+
+
+" vundle stuff
+set rtp+=~/.vim/bundle/vundle
+call vundle#rc()
+Bundle 'gmarik/vundle'
+
+" Bundles
+Bundle 'scrooloose/syntastic'
+Bundle 'kchmck/vim-coffee-script'
