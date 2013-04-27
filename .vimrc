@@ -24,8 +24,14 @@ set expandtab
 set background=dark
 colorscheme solarized 
 
+
+
 "jj exits insert mode
 :imap jj <Esc>
+
+"File specific stuff
+au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 tabstop=2 expantab
+
 
 " vundle stuff
 set rtp+=~/.vim/bundle/vundle
