@@ -8,13 +8,14 @@ set ruler
 set ignorecase
 set smartcase
 
-set autoindent
 
 set laststatus=2
 
-" Tabbing: hard tabs, but display as two spaces
-set shiftwidth=2
-set tabstop=2
+" Tabbing and indentation 
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 
 " Background and colorscheme
