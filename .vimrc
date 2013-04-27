@@ -33,6 +33,7 @@ Bundle 'gmarik/vundle'
 " Bundles
 Bundle 'scrooloose/syntastic'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'guns/vim-clojure-static'
 
 
 filetype plugin indent on
