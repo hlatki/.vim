@@ -29,7 +29,7 @@ colorscheme solarized
 :imap jj <Esc>
 
 "File specific stuff
-au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 tabstop=2 expantab
+au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 tabstop=2 expandtab
 
 
 " vundle stuff
