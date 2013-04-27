@@ -24,6 +24,8 @@ set expandtab
 set background=dark
 colorscheme solarized 
 
+"jj exits insert mode
+:imap jj <Esc>
 
 " vundle stuff
 set rtp+=~/.vim/bundle/vundle
