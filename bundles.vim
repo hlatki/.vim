@@ -13,7 +13,7 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'guns/vim-clojure-static'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'mhinz/vim-startify'
-
+Bundle 'tpope/vim-markdown'
 
 
  filetype plugin indent on     " required!
