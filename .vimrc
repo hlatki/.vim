@@ -1,4 +1,4 @@
-source bundles.vim
+source ~/.vim/bundles.vim
 
 syntax on
 
