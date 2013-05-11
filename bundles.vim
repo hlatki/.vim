@@ -12,6 +12,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'guns/vim-clojure-static'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'mhinz/vim-startify'
 
 
 
