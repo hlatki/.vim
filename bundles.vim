@@ -11,6 +11,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'scrooloose/syntastic'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'guns/vim-clojure-static'
+Bundle 'Lokaltog/vim-powerline'
 
 
 
